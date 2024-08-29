@@ -1,0 +1,31 @@
+.btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 12px 48px;
+    border-radius: 20px;
+    min-width: 100px;
+    transition: opacity .2s ease;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.btn_disabled{
+    opacity: 0.5 !important;
+    cursor: default;
+}
+.btn + .btn{
+    margin-left: 10px;
+}
+
+.btn_green{
+    background-color: #5db934;
+}
+
+.btn_yellow{
+    background-color: #fdb20a;
+}
+
+.btn_red{
+    background-color: #ff5c34;
+}
